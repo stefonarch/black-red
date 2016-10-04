@@ -7,6 +7,7 @@ LXQtPanel #BackgroundWidget{
 QToolTip {
    border: 1px dotted #ada9a9;
    background:#2c2929;
+   color:white;
    padding: 1px;
    margin: 2px;
    border-radius: 2px;
@@ -132,7 +133,8 @@ Mainmenu search field & results
    padding: 5px 30px 5px 3px;
    background-color:#2c2c2c;
 }
-#MainMenu ActionView::item:selected {
+#MainMenu ActionView::item:selected,
+#MainMenu ActionView::item:hover {
    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
    stop: 0 #4c4d4d, stop: 0.08 #424343,
    stop: 0.35 #464747, stop: 0.4 #353636,
